@@ -22,12 +22,18 @@
         _monsters = [NSMutableArray array];
         
         //Create monster objects then add them to the array.
-        [_monsters addObject:[Monster newMonsterWithName:@"Cat-Bot" description:@"MEE-OW" iconName:@"meetcatbot.png" weapon:Sword]];
-        [_monsters addObject:[Monster newMonsterWithName:@"Dog-Bot" description:@"BOW-WOW" iconName:@"meetdogbot.png" weapon:Blowgun]];
-        [_monsters addObject:[Monster newMonsterWithName:@"Explode-Bot" description:@"Tick, tick, BOOM!" iconName:@"meetexplodebot.png" weapon:Smoke]];
-        [_monsters addObject:[Monster newMonsterWithName:@"Fire-Bot" description:@"Will Make You Steamed" iconName:@"meetfirebot.png" weapon:NinjaStar]];
-        [_monsters addObject:[Monster newMonsterWithName:@"Ice-Bot" description:@"Has A Chilling Effect" iconName:@"meeticebot.png" weapon:Fire]];
-        [_monsters addObject:[Monster newMonsterWithName:@"Mini-Tomato-Bot" description:@"Extremely Handsome" iconName:@"meetminitomatobot.png" weapon:NinjaStar]];        
+        [_monsters addObject:[Monster newMonsterWithName:@"Cat-Bot" description:@"MEE-OW"
+                                                iconName:@"meetcatbot.png" weapon:[Weapon newWeaponOfType:Sword]]];
+        [_monsters addObject:[Monster newMonsterWithName:@"Dog-Bot" description:@"BOW-WOW"
+                                                iconName:@"meetdogbot.png" weapon:[Weapon newWeaponOfType:Blowgun]]];
+        [_monsters addObject:[Monster newMonsterWithName:@"Explode-Bot" description:@"Tick, tick, BOOM!"
+                                                iconName:@"meetexplodebot.png" weapon:[Weapon newWeaponOfType:Smoke]]];
+        [_monsters addObject:[Monster newMonsterWithName:@"Fire-Bot" description:@"Will Make You Steamed"
+                                                iconName:@"meetfirebot.png" weapon:[Weapon newWeaponOfType:NinjaStar]]];
+        [_monsters addObject:[Monster newMonsterWithName:@"Ice-Bot" description:@"Has A Chilling Effect"
+                                                iconName:@"meeticebot.png" weapon:[Weapon newWeaponOfType:Fire]]];
+        [_monsters addObject:[Monster newMonsterWithName:@"Mini-Tomato-Bot" description:@"Extremely Handsome" 
+                                                iconName:@"meetminitomatobot.png" weapon:[Weapon newWeaponOfType:NinjaStar]]];
     }
     
     return self;

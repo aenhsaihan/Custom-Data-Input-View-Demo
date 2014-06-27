@@ -54,7 +54,7 @@
     _nameLabel.text = _monster.name;
     _iconImageView.image = [UIImage imageNamed:_monster.iconName];
     _descriptionLabel.text = _monster.description;
-    _weaponImageView.image = [_monster weaponImage];
+    _weaponImageView.image = [_monster.weapon weaponImage];
 }
 
 #pragma mark - Monster Selection Delegate

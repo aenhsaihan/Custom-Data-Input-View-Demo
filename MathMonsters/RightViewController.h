@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Weapon.h"
 
 @class Monster;
 #import "MonsterSelectionDelegate.h"
