@@ -9,6 +9,7 @@
 #import "RightViewController.h"
 #import "Monster.h"
 
+
 @implementation RightViewController
 
 #pragma mark - View Lifecycle
@@ -54,7 +55,8 @@
     _nameLabel.text = _monster.name;
     _iconImageView.image = [UIImage imageNamed:_monster.iconName];
     _descriptionLabel.text = _monster.description;
-    _weaponImageView.image = [_monster.weapon weaponImage];
+    
+    _weaponImageView.weapon = _monster.weapon;
 }
 
 #pragma mark - Monster Selection Delegate
@@ -124,5 +126,14 @@
     }
 }
 
+#pragma mark - WeaponSelectorDelegate method
+-(void)selectedWeapon:(Weapon *)weapon
+{
+    //Check to make sure the weapon is changing.
+    if (_monster.weapon != weapon) {
+        //Update the weapon
+        _monster.weapon = weapon;
+    }
+}
 
 @end
