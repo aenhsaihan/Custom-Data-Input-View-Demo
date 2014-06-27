@@ -5,6 +5,7 @@ A Ray Wenderlich tutorial to teach how to use custom data input view.
 
 ##TASKS
 - [ ] Use autolayout for the icons on the custom input view
+- [ ] Learn how the protocols and the delegates work within the app
 
 
 ##LINKS
