@@ -10,6 +10,7 @@
 		48A8E153195DF28700E373DC /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A8E152195DF28700E373DC /* Weapon.m */; };
 		48A8E157195E085E00E373DC /* WeaponInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A8E155195E085E00E373DC /* WeaponInputViewController.m */; };
 		48A8E158195E085E00E373DC /* WeaponInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A8E156195E085E00E373DC /* WeaponInputViewController.xib */; };
+		48A8E15E195E220800E373DC /* WeaponSelectorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A8E15D195E220800E373DC /* WeaponSelectorImageView.m */; };
 		F5A60CB616A25BE300A0B1DA /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A60CB516A25BE300A0B1DA /* ColorPickerViewController.m */; };
 		F5F5066E169CFC020060B787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5066D169CFC020060B787 /* UIKit.framework */; };
 		F5F50670169CFC020060B787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5066F169CFC020060B787 /* Foundation.framework */; };
@@ -44,6 +45,8 @@
 		48A8E154195E085E00E373DC /* WeaponInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponInputViewController.h; sourceTree = "<group>"; };
 		48A8E155195E085E00E373DC /* WeaponInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponInputViewController.m; sourceTree = "<group>"; };
 		48A8E156195E085E00E373DC /* WeaponInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaponInputViewController.xib; sourceTree = "<group>"; };
+		48A8E15C195E220800E373DC /* WeaponSelectorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponSelectorImageView.h; sourceTree = "<group>"; };
+		48A8E15D195E220800E373DC /* WeaponSelectorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponSelectorImageView.m; sourceTree = "<group>"; };
 		F53C4F0A16A22B1D0053D3A6 /* MonsterSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterSelectionDelegate.h; sourceTree = "<group>"; };
 		F5A60CB416A25BE300A0B1DA /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
 		F5A60CB516A25BE300A0B1DA /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				48A8E154195E085E00E373DC /* WeaponInputViewController.h */,
 				48A8E155195E085E00E373DC /* WeaponInputViewController.m */,
 				48A8E156195E085E00E373DC /* WeaponInputViewController.xib */,
+				48A8E15C195E220800E373DC /* WeaponSelectorImageView.h */,
+				48A8E15D195E220800E373DC /* WeaponSelectorImageView.m */,
 				F5F506DA169D33330060B787 /* MonsterArt */,
 				F5F50674169CFC020060B787 /* Supporting Files */,
 			);
@@ -263,6 +268,7 @@
 				48A8E153195DF28700E373DC /* Weapon.m in Sources */,
 				F5F5067A169CFC020060B787 /* main.m in Sources */,
 				F5F5067E169CFC020060B787 /* AppDelegate.m in Sources */,
+				48A8E15E195E220800E373DC /* WeaponSelectorImageView.m in Sources */,
 				F5F506D3169D16C20060B787 /* RightViewController.m in Sources */,
 				F5F506D6169D17370060B787 /* LeftViewController.m in Sources */,
 				F5F506D9169D30610060B787 /* Monster.m in Sources */,
