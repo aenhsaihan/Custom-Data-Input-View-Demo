@@ -6,4 +6,6 @@ A Ray Wenderlich tutorial to teach how to use custom data input view.
 
 ##LINKS
 
+[Ray Wenderlich Tutorial](http://www.raywenderlich.com/29474/ipad-for-iphone-developers-101-in-ios-6-custom-input-view-tutorial)
+
 [Apple Documentation](https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/InputViews/InputViews.html#//apple_ref/doc/uid/TP40009542-CH12-SW1)
